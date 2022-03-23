@@ -1,0 +1,154 @@
+body{
+	background-image:url('blackorchid_@2X.jpg');
+	
+	
+}
+
+.main{
+	//background-color:#000000;
+	opacity: 0.5;
+}
+
+
+.content{
+	height:2000px;
+	color:red;
+	position:absolute;
+	//border:solid;
+	width:1150px;
+	margin-left:300px;
+	margin-top:-44px;
+	padding-left:60px;
+	padding-top:20px;
+	
+	background-color: black;
+	opacity: 0.5;
+	
+	/*
+	background: rgba(73,155,234,1);
+background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 59%, rgba(32,124,229,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(59%, rgba(32,124,229,1)), color-stop(100%, rgba(32,124,229,1)));
+background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 59%, rgba(32,124,229,1) 100%);
+background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 59%, rgba(32,124,229,1) 100%);
+background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 59%, rgba(32,124,229,1) 100%);
+background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 59%, rgba(32,124,229,1) 100%);
+*/
+
+}
+
+.links
+{
+	
+    line-height:10px;    
+  
+	color:green;
+	position:fixed;
+	//border:solid;
+	width:250px;
+	margin-top:-80px;
+	height: 400px;
+	padding-left:50px;
+	padding-top:5px;
+	
+	font-size:20px;
+
+}
+a.category{
+	margin-left:15px;
+	
+	text-decoration:none;
+	/*
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:20px;
+	 */
+	}
+	
+.btn {
+	height:40px;
+	width:150px;
+	
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: black;
+  font-size: 20px;
+  padding: 0px 13px 3px 13px;
+ border: solid #ffffff 0px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+
+
+                .share-icon {
+                	display: inline-block;
+                    float: left;
+                    margin: 4px;
+                    width: 32px;
+                    height: 32px;
+                    cursor: pointer;
+                    vertical-align: middle;
+                    background-image: url(Resources/main_slider/share/share-icons.png);
+                	}
+
+                .share-facebook {
+                    background-position: 0px 0px;
+                	}
+
+                    .share-facebook:hover {
+                        background-position: 0px -40px;
+                	}
+
+        .share-twitter {
+            background-position: -40px 0px;
+        			}
+
+            .share-twitter:hover {
+                background-position: -40px -40px;
+            		}
+
+        .share-pinterest {
+            background-position: -80px 0px;
+        			}
+
+            .share-pinterest:hover {
+                background-position: -80px -40px;
+           			}
+
+
+                .share-googleplus {
+                    background-position: -120px 0px;
+                	}
+
+                    .share-googleplus:hover {
+                        background-position: -120px -40px;
+                    }
+
+
+                .share-email {
+                    background-position: -320px 0px;
+                	}
+
+                    .share-email:hover {
+                        background-position: -320px -40px;
+                    }
+                    
+                

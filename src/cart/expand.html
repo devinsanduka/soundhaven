@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-1.11.1.min.js"></script>
+
+ 
+<style> 
+#panel,#flip
+{
+padding:5px;
+text-align:center;
+background-color:#e5eecc;
+border:solid 1px #c3c3c3;
+cursor: pointer;
+}
+#panel
+{
+padding:50px;
+cursor: pointer;
+display:none;
+}
+</style>
+</head>
+<body>
+ 
+ 
+ <script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+    return $panel.is(":visible") ? "Collapse" : "Expand";
+  });
+});
+</script>
+<div id="flip"><img src='uparrow.gif' width='10' height='12'/></div>
+<div id="panel">Hello world!</div>
+
+</body>
+</html>
